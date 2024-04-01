@@ -1,4 +1,11 @@
-function Pokecard({ id, name, type, base_experience,  }) {
+/** Takes information on a single pokemon, returns formatted:
+ * name, photo, type, base experience
+ */
+
+import './Pokecard.css';
+
+
+function Pokecard({ id, name, type, base_experience }) {
     return (
         <div className="Pokecard">
             <b className="Pokecard-name">{name}</b>
