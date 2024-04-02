@@ -31,9 +31,9 @@ const player2 = pokeShuffle.slice(4);
 const player1XP = findXP(player1)
 const player2XP = findXP(player2)
 
+const winner = player1XP > player2XP ? `player1 wins! Winning Score: ${player1XP}` : `player2 wins! Winning Score: ${player2XP}`
 
-
-export { player1, player2, player1XP, player2XP }
+export { player1, player2, player1XP, player2XP, winner }
 
 
 
